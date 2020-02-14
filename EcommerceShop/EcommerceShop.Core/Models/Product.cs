@@ -12,7 +12,7 @@ namespace EcommerceShop.Core.Models
     {
         public string Id { get; set; }
         [StringLength(20)]
-        [DisplayName("Insert product name!")]
+        [DisplayName("Product name")]
         public string Name { get; set; }
 
         public string Description { get; set; }
